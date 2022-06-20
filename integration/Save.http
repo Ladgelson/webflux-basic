@@ -1,0 +1,18 @@
+POST http://localhost:8080/api/profiles
+Content-Type: application/json
+
+{
+    "name": "Ladgelson",
+    "repositories": [
+         {
+           "name": "java-api",
+           "description": "A simple Spring Boot API",
+           "languages": ["Java"]
+         },
+         {
+           "name": "java-interview-questions",
+           "description": "A list of answers of interview questions",
+           "languages": ["Java"]
+         }
+    ]
+}

@@ -1,0 +1,2 @@
+GET http://localhost:8080/api/profiles/62acc8fde006d43c0f0140f6
+Content-Type: application/json
